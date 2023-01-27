@@ -1,0 +1,8 @@
+{
+  "galaxy.meteor.com": {
+    "env": {
+      "MONGO_URL": "mongodb+srv://shoppiesUser:eyeofhorus@mycluster.e44o2.mongodb.net/meteor"
+    }
+  }
+
+}

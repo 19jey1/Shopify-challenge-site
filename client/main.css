@@ -1,0 +1,143 @@
+body {
+  padding: 10px;
+  font-family: helvetica;
+  background-image: radial-gradient(circle, #2e3040, #0f1017);
+  /* box-shadow: 0px 0px 700px 10px black inset; */
+  margin: 0px 0px 0px 0px;
+  height: 100%;
+}
+
+h1{
+  color: #e2e8f0;
+  font-size: 55px;
+}
+
+.appContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.searchItem {
+  order: 0;
+  flex-basis: 48%;
+}
+.nominateItem{
+  order: 1;
+  flex-basis: 48%;
+}
+
+.searchContainer{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.nominateContainer{
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.searchBarContainer{
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.searchBarContainer img{
+  flex: 0 1 auto;
+  float: right;
+}
+
+.searchBar{
+  width: 70%;
+  background-color: #323940;
+  margin: 0px;
+  border: 0px;
+  flex: 0 1 70%;
+  font: 20px helvetica;
+  color: #7a7c87;
+  border-radius: 12px;
+  padding: 5px;
+}
+
+.searchBar:focus{
+  outline: none;
+}
+
+.noResults{
+  flex: 0 1 auto;
+  border: 1px solid #7a7c87;
+  color: #e2e8f0;
+  border-radius: 25px;
+  background: grey;
+  box-shadow: 0px 0px 100px 10px black inset;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  margin-top: 10px;
+}
+
+.movie {
+  margin-top: 10px;
+  background: grey;
+  box-shadow: 0px 0px 1000px 10px black inset;
+  border-radius: 25px;
+  /*border: 3px solid #323940; */
+  flex: 0 1 auto;
+  border: 1px solid #7a7c87;
+  color: #e2e8f0;
+}
+
+.movieInternal{
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.movieInternalTitle{
+  order: 0;
+  flex-basis: 100%;
+  color: #e2e8f0;
+}
+
+.movie img{
+  order: 1;
+  flex-basis: 1;
+  float: left;
+  border-radius: 12px;
+  margin-left: 15px;
+}
+
+.movieInternal div{
+  order: 2;
+  flex-basis: 1;
+  font-size: 15px;
+  width: 70%;
+}
+
+.movieInternal div p{
+  margin-left: 10px;
+  color: #bdc3c9;
+}
+
+.movieInternalButton {
+  border-radius: 12px;
+  border-style: solid ;
+  border-width: 1px;
+  padding: 10px 10px 12px 12px;
+  color: #e2e8f0;
+  background-color: #3d4045;
+  float: right;
+  transform: translateY(-300%);
+}
+
+.movieInternalButton:focus{
+  outline: none;
+}
+
+.nominationBanner {
+  background: #4da35b;
+  text-align: center;
+  color: #3d4045;
+  font-size: 26px;
+  font-weight: bolder;
+  border-radius: 25px;
+}
