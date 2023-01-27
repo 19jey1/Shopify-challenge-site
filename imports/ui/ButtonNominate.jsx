@@ -12,7 +12,7 @@ export const ButtonNominate = ({ buttonData }) => {
   nominations = nominations.map((movie) => fixNom(movie));
 
   function insertMovie(movie){
-    var flag = false; //this solution sucks so much
+    var flag = false; 
     if (nominations.length == 5){
       console.log("Nomination forbidden: You have too many!") //delete this eventually / replace with a better warning message
       flag = true;
